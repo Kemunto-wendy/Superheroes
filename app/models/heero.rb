@@ -1,0 +1,2 @@
+class Heero < ApplicationRecord
+end
