@@ -1,0 +1,2 @@
+class HeeroController < ApplicationController
+end
