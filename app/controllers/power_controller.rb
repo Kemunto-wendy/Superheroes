@@ -1,7 +1,8 @@
 class PowerController < ApplicationController
 
   def index
-    render json: { Team: "Welcome to my new rails application" }
+    powers = Power.all
+    render json: powers
   end
 
 end
